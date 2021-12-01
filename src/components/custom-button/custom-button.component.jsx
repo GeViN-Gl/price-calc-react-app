@@ -20,7 +20,7 @@ const CustomButton = ({ name, currValue, setFunction }) => {
             break;
         }
       }}
-      className={`btn${currValue === name ? ` active` : ` inactive`}`}
+      className={`btn ${currValue === name ? `btn__primary` : `btn__secondary`}`}
     >
       {name}
     </button>
